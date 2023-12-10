@@ -24,11 +24,6 @@ const Navbar = () => {
 
             </li>
 
-            <li key={"download"} className='md:ml-4 text-l md:my-0 my-7'>
-              <Link to={"/download"} className={`${location.pathname=="/download"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Downloads</Link>
-
-            </li>
-
             <li key={"researchSupport"} className='md:ml-4 text-l md:my-0 my-7'>
               <Link to={"/researchSupport"} className={`${location.pathname=="/researchSupport"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Research Support</Link>
 
@@ -41,16 +36,21 @@ const Navbar = () => {
               <Link to={"/studentCorner"} className={`${location.pathname=="/studentCorner"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Student's Corner</Link>
 
             </li>
-            <li key={"faq"} className='md:ml-4 text-l md:my-0 my-7'>
-              <Link to={"/faq"} className={`${location.pathname=="/faq"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>FAQ's</Link>
-
-            </li>
+            
             <li key={"peoples"} className='md:ml-4 text-l md:my-0 my-7'>
               <Link to={"/peoples"} className={`${location.pathname=="/peoples"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Peoples</Link>
 
             </li>
             <li key={"ipr"} className='md:ml-4 text-l md:my-0 my-7'>
               <Link to={"/ipr"} className={`${location.pathname=="/ipr"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>IPR</Link>
+
+            </li>
+            <li key={"faq"} className='md:ml-4 text-l md:my-0 my-7'>
+              <Link to={"/faq"} className={`${location.pathname=="/faq"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>FAQ's</Link>
+
+            </li>
+            <li key={"download"} className='md:ml-4 text-l md:my-0 my-7'>
+              <Link to={"/download"} className={`${location.pathname=="/download"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Downloads</Link>
 
             </li>
             <li key={"contact"} className='md:ml-4 text-l md:my-0 my-7'>

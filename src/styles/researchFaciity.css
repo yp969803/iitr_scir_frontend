@@ -1,0 +1,12 @@
+#download{
+    background-image: url('../images/banner.png');
+    width: 100%;
+    background-position: center top;
+    background-size: cover;
+}
+#dem{
+    width: 64rem;
+    height: 34rem;
+    text-align: center;
+    max-width: auto;
+}

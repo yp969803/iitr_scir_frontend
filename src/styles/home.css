@@ -4,3 +4,11 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#backImage{
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+
+}
