@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from '.././../images/logo.png'
+import logo from '.././../images/logo SRIC (1).png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import '../../styles/nav.css'
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className='shadow-md w-full top-0 left-0'>
         <div className='md:flex items-center justify-between  bg-white py-3 md:px-10 px-7'>
           <div className='font-bold test-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800'>
-            <img src={logo} alt="logo" className="w-30 h-10" />
+            <img src={logo} alt="logo" className="" id="logo" />
           </div>
           <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
             <i className={`bi bi-${open ? "x" : "list"}`} ></i>

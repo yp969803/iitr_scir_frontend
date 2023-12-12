@@ -81,28 +81,28 @@ const About = () => {
                 </dv>}
                 {(tab == 2) && <div className='flex flex-col items-center justify-center h-80 font-sarif'>
                     <p className='text-center font-bold text-3xl p-2   text-white pb-2 '>GENERAL INFORMATION</p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/files/R&D_Brochure.pdf'>Coordinating IITR representation in events</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/sponsored-projects.php'>Research/Consultancy Projects</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Coordinating IITR representation in events</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Research/Consultancy Projects</a></p>
                     <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>International Collaboration</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/files/Major Technologies Developed.pdf'>Major Technologies and Products Developed/Technology Transfer/Awards</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/files/Patent_Details_2018_onwards.pdf'>Patents</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Major Technologies and Products Developed/Technology Transfer/Awards</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Patents</a></p>
                 </div>}
                 {(tab == 3) && <div className='flex flex-col items-center justify-center b font-sarif'>
                     <p className='text-center font-bold text-3xl p-2   text-white pb-2 '>Project Guidelines</p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg2'>Apply for a Project & Endorsement Letter</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg3'>Getting Project Number</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg5'>PFMS/DSIR/FERA Certificate</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg6'>GST/TAN/PAN</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/files/Patent_Details_2018_onwards.pdf'>Unique ID No.[NGO]</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg8'>Tax Invoice</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg98'>Tax Exemption</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Apply for a Project & Endorsement Letter</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Getting Project Number</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>PFMS/DSIR/FERA Certificate</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>GST/TAN/PAN</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Unique ID No.[NGO]</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Tax Invoice</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Tax Exemption</a></p>
                     <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>SRIC Account Detais/Pay,ents</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg13'>Travel for Project Work</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg14'>Analysis/Testing</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/roject-guideline.php#pg15'>Request for SE/UC</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg16'>Purchase Manual</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg17'>Advance for carrying out Project Work</a></p>
-                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/project-guideline.php#pg18'>PDF Guidelines</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Travel for Project Work</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Analysis/Testing</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Request for SE/UC</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Purchase Manual</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>Advance for carrying out Project Work</a></p>
+                    <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href=''>PDF Guidelines</a></p>
                 </div>}
 
 
