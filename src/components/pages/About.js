@@ -28,8 +28,9 @@ const About = () => {
                 </div>}
                 {(tab == 1) &&
                  <dv className="container">
-                    <img src={activityImage} className="" />
+                  
                     <div className="" >
+                    
                         <div className=' p-2 text-white font-serif ' >
                             <p className='text-center font-bold text-3xl p-2 '>SRIC ACTIVITIES</p>
                             <div className="grid sm:grid-rows-3 md:grid-rows-none sm:grid-cols-none md:grid-cols-3 gap-4">
