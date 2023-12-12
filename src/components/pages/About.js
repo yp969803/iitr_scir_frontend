@@ -75,6 +75,7 @@ const About = () => {
                                     <p className="text-md px-2">I-STEM</p>
                                 </div>
                             </div>
+                            <img src={activityImage}/>
                         </div>
                     </div>
                 </dv>}
