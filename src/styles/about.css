@@ -1,0 +1,16 @@
+#message{
+    background-image: url('../images/IITR Campus Updated.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dem{
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    background-image: url('../images/banner.png');
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}

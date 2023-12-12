@@ -23,15 +23,16 @@ const Navbar = () => {
               <Link to={"/"} className={`${location.pathname=="/"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Home</Link>
 
             </li>
+            <li key={"about"} className='md:ml-4 text-l md:my-0 my-7'>
+              <Link to={"/about"} className={`${location.pathname=="/about"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>About us</Link>
+
+            </li>
 
             <li key={"researchSupport"} className='md:ml-4 text-l md:my-0 my-7'>
-              <Link to={"/researchSupport"} className={`${location.pathname=="/researchSupport"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Research Support</Link>
+              <Link to={"/research"} className={`${location.pathname=="/research"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Research</Link>
 
             </li>
-            <li key={"researchFacility"} className='md:ml-4 text-l md:my-0 my-7'>
-              <Link to={"/researchFacility"} className={`${location.pathname=="/researchFacility"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Research Facility</Link>
-
-            </li>
+           
             <li key={"studentCorner"} className='md:ml-4 text-l md:my-0 my-7'>
               <Link to={"/studentCorner"} className={`${location.pathname=="/studentCorner"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Student's Corner</Link>
 
@@ -45,10 +46,7 @@ const Navbar = () => {
               <Link to={"/ipr"} className={`${location.pathname=="/ipr"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>IPR</Link>
 
             </li>
-            <li key={"faq"} className='md:ml-4 text-l md:my-0 my-7'>
-              <Link to={"/faq"} className={`${location.pathname=="/faq"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>FAQ's</Link>
-
-            </li>
+           
             <li key={"download"} className='md:ml-4 text-l md:my-0 my-7'>
               <Link to={"/download"} className={`${location.pathname=="/download"?"text-blue-500":"text-gray-800"} hover:text-gray-400 duration-500`}>Downloads</Link>
 
