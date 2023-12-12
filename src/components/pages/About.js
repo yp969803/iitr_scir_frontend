@@ -26,8 +26,9 @@ const About = () => {
                     </div>
                    
                 </div>}
-                {(tab == 1) && <>
-                    <img src={activityImage} className="img-fluid" />
+                {(tab == 1) &&
+                 <dv className="container">
+                    <img src={activityImage} className="" />
                     <div className="" >
                         <div className=' p-2 text-white font-serif ' >
                             <p className='text-center font-bold text-3xl p-2 '>SRIC ACTIVITIES</p>
@@ -75,7 +76,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                </>}
+                </dv>}
                 {(tab == 2) && <div className='flex flex-col items-center justify-center h-80 font-sarif'>
                     <p className='text-center font-bold text-3xl p-2   text-white pb-2 '>GENERAL INFORMATION</p>
                     <p className="text-xl  px-2 text-white hover:text-red-400 md:font-semibold"><a href='https://people.iitism.ac.in/~research/files/R&D_Brochure.pdf'>Coordinating IITR representation in events</a></p>
